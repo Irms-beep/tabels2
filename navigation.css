@@ -22,14 +22,28 @@ li a:hover {
     background-color: #111;
 }
 
-.scroll-bar {
+.scroll-bar, .guitar_scroll-bar {
     overflow-x: auto;
-    box-shadow: 1px 1px 20px rgba(0,0,0,0.15)
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
 }
-.many-columns, td, th {
-    color: green;
+
+.many-columns, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 15px;
 }
 
+th {
+    vertical-align: auto;
+}
+
+thead {
+    background: rgb(212, 104, 255);
+    color: white;
+}
+
+.table-image {
+    padding: 30px;
+    border: 2px dotted black;
+
+}
